@@ -6,7 +6,7 @@ private Node head;
 private Node tail;
 private int size;
 
-Singly()
+SinglyLL()
 {
 	this.size = 0;
 }
