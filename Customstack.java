@@ -89,6 +89,8 @@ class Customstack{
 				System.out.println("\t 2. Pop Element From the Stack ");
 				System.out.println("\t 3. Display Element   ");
 				System.out.println("\t 4. Display TopMost Element from the Stack");
+			        System.out.println("\t 5. Check Weather Stack is Full? ");
+			        System.out.println("\t 6. Check Weather Stack Is Empty?");
 
 				int ch = sc.nextInt();
 				switch(ch){
@@ -109,7 +111,17 @@ class Customstack{
 
 					case 4:
 							System.out.println("Top Most Element => "+ stack.peek());
+					
+					case 5:
+						System.out.println("Stack is Full =>" + stack.isFull());
+						break;
 
+					case 6:
+						System.out.println("Stack Is Empty =>" + stack.isEmpty());
+						break;
+
+					default :
+						System.out.println("Wrong Choice");
 
 				}
 		
