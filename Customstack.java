@@ -111,17 +111,18 @@ class Customstack{
 
 					case 4:
 							System.out.println("Top Most Element => "+ stack.peek());
+							break;
 					
 					case 5:
-						System.out.println("Stack is Full =>" + stack.isFull());
-						break;
+							System.out.println("Stack is Full =>" + stack.isFull());
+							break;
 
 					case 6:
-						System.out.println("Stack Is Empty =>" + stack.isEmpty());
-						break;
+							System.out.println("Stack Is Empty =>" + stack.isEmpty());
+							break;
 
 					default :
-						System.out.println("Wrong Choice");
+							System.out.println("Wrong Choice");
 
 				}
 		
